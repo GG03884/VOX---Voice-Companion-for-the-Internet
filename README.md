@@ -79,7 +79,7 @@ const result = await model.generateContent(prompt);
 const source = result.response.inferenceSource; // 'ON_DEVICE' | 'IN_CLOUD'
 ```
 
-See [docs/FIREBASE_IMPLEMENTATION.md](file:///C:/Users/Gayatri%20Gupta/.gemini/antigravity/scratch/vox/docs/FIREBASE_IMPLEMENTATION.md) for complete technical specifications.
+See [docs/FIREBASE_IMPLEMENTATION.md](docs/FIREBASE_IMPLEMENTATION.md) for complete technical specifications.
 
 ---
 
@@ -104,8 +104,7 @@ The compiled Manifest V3 extension is output to the `dist/` folder.
 1. Open Google Chrome and go to `chrome://extensions`.
 2. Turn on **Developer mode** (toggle in top-right corner).
 3. Click **Load unpacked** (top-left).
-4. Select the directory:
-   `C:\Users\Gayatri Gupta\.gemini\antigravity\scratch\vox\dist`
+4. Select the `dist` folder inside your clone of this repository.
 5. Pin VOX to your Chrome toolbar.
 
 ### 3. Test with Any Webpage
@@ -128,4 +127,4 @@ npm test
 
 ## License
 
-Licensed under the [Apache License, Version 2.0](file:///C:/Users/Gayatri%20Gupta/.gemini/antigravity/scratch/vox/LICENSE).
+Licensed under the [Apache License, Version 2.0](LICENSE).
